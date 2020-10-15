@@ -1,0 +1,24 @@
+{
+  "name": "scss-exercise-1-muratcanoncu",
+  "version": "1.0.0",
+  "description": "This exercise focuses mainly importing files, variables, and @mixin topics.",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss main.scss main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FbW41/scss-exercise-1-muratcanoncu.git"
+  },
+  "keywords": [],
+  "author": "Murat Can Öncü",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FbW41/scss-exercise-1-muratcanoncu/issues"
+  },
+  "homepage": "https://github.com/FbW41/scss-exercise-1-muratcanoncu#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.3"
+  }
+}
